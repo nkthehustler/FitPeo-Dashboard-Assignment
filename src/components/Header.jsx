@@ -15,9 +15,12 @@ function Header() {
         <span className="absolute right-3 top-2.5 text-gray-400">🔍</span>
       </div>
 
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-1">
         <span className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">
           N
+        </span>
+         <span className="w-8 h-8 bg-pink-500 rounded-full flex items-center justify-center text-white font-bold">
+          +
         </span>
       </div>
     </header>
